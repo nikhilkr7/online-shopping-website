@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    height: 10vh;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .5s ease;
+    margin-left: 5vw;
+}
+
+.logo{
+    height: 100%;
+    width: 10%;
+}
+
+.logo img{
+    padding-left: 2vw;
+    height: 100%;
+    width: 90%;
+}
+.navmenus{
+    width: 70%;
+    height: 100%;
+    font-size: 1.2vw;
+    font-weight: 500;
+    text-transform: capitalize;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+    
+}
+.navmenus a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3vw;
+    transition: all .42s ease;
+}
+.navmenus a:hover{
+    color: red;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    width: 20%;
+    height: 100%;
+}
+.menu a{
+    font-size: 1.5vw;
+    color: black;
+}
+
+section{
+    width: 99vw;
+    height: 85vh;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.44);
+}
+.sale{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5vw;
+    font-family: "Roboto", sans-serif;
+}
+.sale h1{
+    font-size: 3.2vw;
+}
+.sale h3{
+    font-size: 1.7vw;
+    margin: 3vh 0;
+    font-family: "Caveat", cursive;
+}
+.sale button{
+ font-size: 1.3vw;
+ padding: 0.8vh 1vw;
+ height: 8vh;
+ width: 12vw;
+ font-family: "Roboto", sans-serif;
+}
+.sale button:hover{
+    background-color: rgba(0, 0, 255, 0.686);
+    transition: ease .42s;
+}
+
+.model{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+.model img{
+    height: 100%;
+    justify-content: start;
+}
+.arrow{
+    border: 2px solid black;
+    width: 4vw;
+    height: 7.6vh;
+    border-radius: 50%;font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;   
+}
+.arrow:hover{
+    background-color: black;
+    color: white;
+}
+.arrow h2{
+    margin-top: 0.8vh;
+}
+.brand-title{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+}
+.brand-title span{
+    color: red;
+}
+.brands{
+    background-color: rgb(209, 209, 209);
+    margin-top: 5vh;
+    height: auto;
+    width: 99vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(23vw, auto));
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    padding: 3vh 0;
+}
+.brands-box{
+    background-color: white;
+    height: 48vh;
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.brands-box:hover{
+    scale: 0.9;
+    box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+}
+.brandbox{
+    height: 80%;
+    width: 18vw;
+}
+.brandbox img{
+    height: 100%;
+    width: 100%;
+}
+.brandname{
+    position: relative;
+    bottom: 2vh;
+    font-size: 5vh;
+}
+.brandprice{
+    position: relative;
+    bottom: 2vh;
+    font-size: 3vh;
+}
+
+.poster{
+    max-width: 95vw;
+    height: 30vh;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.poster img{
+    /* width: 200%; */
+    height: 95%;
+    animation: move-rtl 6000ms linear infinite;
+}
+
+@keyframes move-rtl{
+    0% {
+        transform: translateX(calc(0));
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+footer{
+    height: 70vh;
+    width: 98vw;
+    display: flex;
+    margin-left: 1vw;
+    justify-content: center;
+    background-color: rgb(235, 235, 235);
+    padding-top: 5vh;
+}
+footer li{
+    list-style: none;
+}
+footer ul{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+    font-size: 1.8vh;
+}
+.links{
+    height: 100%;
+    width: 15%;
+}
+.online-shopping{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    height: 50%;
+}
+.usefull-links{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.policies{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.bharosa{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bharosa img{
+    height: 100%;
+    width: 70%;
+    rotate: -15deg;
+}
+
