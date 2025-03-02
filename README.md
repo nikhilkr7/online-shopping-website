@@ -1,7 +1,7 @@
 # online-shopping-website
 An online shopping website for a clothing or fashion brand using HTML and CSS. Welcome to my website, a simple and elegant online shopping website for clothing and fashion brands. This project is built using HTML and CSS to provide a clean and responsive user experience.
 
-Features
+# Features
 
 Home Page: A stylish landing page showcasing the latest fashion trends.
 
@@ -13,7 +13,10 @@ Shopping Cart: Add or remove items from the cart.
 
 Responsive Design: Works smoothly on all devices (desktop, tablet, and mobile).
 
-Technologies Used
+
+
+
+# Technologies Used
 
 HTML5: Structure of the website.
 
