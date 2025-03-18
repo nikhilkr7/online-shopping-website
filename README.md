@@ -24,3 +24,4 @@ CSS3: Styling and layout.
 
 
 ## Output
+![Screenshot 2025-03-15 181807](https://github.com/user-attachments/assets/de04c57a-3196-4fc3-93c5-22ff3b85843b)
