@@ -21,3 +21,6 @@ Responsive Design: Works smoothly on all devices (desktop, tablet, and mobile).
 HTML5: Structure of the website.
 
 CSS3: Styling and layout.
+
+
+## Output
