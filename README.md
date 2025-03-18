@@ -16,7 +16,7 @@ Responsive Design: Works smoothly on all devices (desktop, tablet, and mobile).
 
 
 
-# Technologies Used
+## Technologies Used
 
 HTML5: Structure of the website.
 
