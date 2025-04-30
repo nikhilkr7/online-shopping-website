@@ -20,7 +20,7 @@ An online shopping website for a clothing or fashion brand using HTML and CSS. W
 
 #### HTML5: Structure of the website.
 
-CSS3: Styling and layout.
+#### CSS3: Styling and layout.
 
 
 ## Output
