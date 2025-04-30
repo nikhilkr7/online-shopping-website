@@ -7,7 +7,7 @@ An online shopping website for a clothing or fashion brand using HTML and CSS. W
 
 #### Product Listings: Display different categories of clothing with images and descriptions.
 
-Product Details: A detailed view of each item with pricing and specifications.
+#### Product Details: A detailed view of each item with pricing and specifications.
 
 Shopping Cart: Add or remove items from the cart.
 
