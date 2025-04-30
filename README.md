@@ -11,7 +11,7 @@ An online shopping website for a clothing or fashion brand using HTML and CSS. W
 
 #### Shopping Cart: Add or remove items from the cart.
 
-Responsive Design: Works smoothly on all devices (desktop, tablet, and mobile).
+#### Responsive Design: Works smoothly on all devices (desktop, tablet, and mobile).
 
 
 
