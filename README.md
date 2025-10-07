@@ -18,9 +18,9 @@ An online shopping website for a clothing or fashion brand using HTML and CSS. W
 
 ## Technologies Used
 
-#### HTML5: Structure of the website.
+* HTML5: Structure of the website.
 
-#### CSS3: Styling and layout.
+* CSS3: Styling and layout.
 
 
 ## Output
