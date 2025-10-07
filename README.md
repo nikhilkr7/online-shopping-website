@@ -3,7 +3,7 @@ An online shopping website for a clothing or fashion brand using HTML and CSS. W
 
 ## Features
 
-#### Home Page: A stylish landing page showcasing the latest fashion trends.
+* Home Page: A stylish landing page showcasing the latest fashion trends.
 
 #### Product Listings: Display different categories of clothing with images and descriptions.
 
